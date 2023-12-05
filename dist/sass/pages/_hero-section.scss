@@ -1,0 +1,72 @@
+//hero main section
+.section2 {
+  background-color: $color-primary;
+  height: 900px;
+  margin-bottom:200px;
+}
+.hero__container {
+  width: 75vw;
+
+  margin-left: 14vw;
+  margin-right: 14vw;
+  display: flex;
+  justify-content: space-around;
+
+  height: 800px;
+
+
+  &-text {
+    color: white;
+    position: absolute;
+    width: 360px;
+    height: 190px;
+    top: 334px;
+    left: 14vw;
+
+    &-h1 {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 6.81818rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 122%; /* 8.31818rem */
+      letter-spacing: -0.27273rem;
+    }
+    &-p {
+		margin-bottom:20px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 100;
+      line-height: 60px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  &-images {
+    margin-top: 180px;
+    margin-right: 12rem;
+
+    position: relative;
+    &-hero {
+      position:absolute;
+      border: 1px;
+      width:500px;
+      margin-left:30px;
+      margin-top: 30px;
+animation-name: fadein;
+animation-duration: 3s;
+z-index:1000;
+    }
+    &-circles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index:1;
+    }
+    &-circles2 {
+      position: absolute;
+      top: 295px;
+      left: 230px;
+    }
+  }
+}
