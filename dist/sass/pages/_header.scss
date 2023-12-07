@@ -16,7 +16,6 @@
 }
 .header {
   width: 75vw;
-  @include border;
   margin-left: 14vw;
   margin-right: 14vw;
   display: flex;
@@ -24,23 +23,19 @@
 }
 .menu {
   &__container {
-    border: 1px solid black;
     width: 74vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     &-items {
       display: flex;
       align-items: center;
-      border: 1px solid rgb(113, 47, 47);
     }
   }
 }
 .logo-box {
   width: 200px;
   color: #fff;
-
   font-family: Poppins;
   font-size: 1.81818rem;
   font-style: normal;
@@ -60,7 +55,6 @@
   padding: 0;
   margin: 20px;
   color: #fff;
-
   font-family: Roboto;
   font-size: 1.27273rem;
   font-style: normal;
