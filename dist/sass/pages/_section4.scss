@@ -40,7 +40,7 @@
           background-color: rgba(255, 255, 255, 0.435);
           top: 55%;
           left: 43%;
-          // animation: blink 2s infinite 0.5s;
+
         }
         &-2 {
           background-color: #ababab66;
@@ -85,6 +85,9 @@
       &-jpg--img {
         width: 600px;
         height: auto;
+
+
+
       }
     }
     &-images.show {

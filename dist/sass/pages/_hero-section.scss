@@ -1,8 +1,8 @@
 //hero main section
 .section2 {
   background-color: $color-primary;
-  height: 1200px;
-  margin-bottom: 90px;
+  height: 900px;
+
 }
 .hero__container {
   width: 75vw;
@@ -56,6 +56,9 @@
       animation-name: fadein;
       animation-duration: 3s;
       z-index: 1000;
+      &--jpg{
+          filter: grayscale(90%) contrast(110%) brightness(120%);
+      }
     }
     &-circles {
       position: absolute;
